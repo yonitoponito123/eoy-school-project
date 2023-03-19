@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="with-device-width, initial-scale=1.0">
+	<title> Дипломен проект </title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="ïndex.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="grafiki.html">Графики</a></li>
+                <li><a href="kontakti.html">Контакти</a></li>
+                <li><a href="about me.html">Автор на сайта</a></li>
+           </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+</section>        
+
+        <!--------- contact us ------------>
+        <h1>Контакти</h1>
+
+ <section class="location">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.085329956745!2d23.311769015466474!3d42.680734779166684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8504ce5058cb%3A0xdfffc7507b190164!2z0J3QsNGG0LjQvtC90LDQu9C90LAg0YLRitGA0LPQvtCy0YHQutC-LdCx0LDQvdC60L7QstCwINCz0LjQvNC90LDQt9C40Y8!5e0!3m2!1sbg!2sbg!4v1673338133979!5m2!1sbg!2sbg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>бул. „Витоша“ 91, район Триадица</h5>
+                    <p>София, България</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+359 29157931</h5>
+                    <p>Понеделник - Петък 7:00 - 19:00</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>E-mail адрес</h5>
+                    <p>tbg1@abv.bg</p>
+                </span>
+            </div>
+        </div>
+ <div class="contact-col">
+
+        <form action="form.php" method="post">
+            <input type="text" name="name" placeholder="Име" required>
+            <input type="text" name="surname" placeholder="Фамилия" required>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <input type="text" name="phone" placeholder="Телефон" required>
+            <textarea rows="8" name="message" placeholder="Съобщение" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Изпрати</button>
+        </form>
+</div>
+
+
+</section>

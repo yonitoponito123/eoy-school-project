@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="with-device-width, initial-scale=1.0">
+		<title> Дипломен проект </title>
+		<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+<body>
+     <section class="header">
+      <nav>
+          <a href="ïndex.html"><img src="images/logo.png"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="grafiki.html">Графики</a></li>
+                <li><a href="kontakti.html">Контакти</a></li>
+                <li><a href="about me.html">Автор на сайта</a></li>
+           </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+     <h1>Електронни платежни инструменти и платежни системи</h1>
+     <p>Анализ на такси, начислявани от доставчиците на платежни услуги на потребител за 2022 година</p>
+     <a href="diplom.pdf" class="hero-btn" target="_blank">Научете повече</a>
+</div>
+
+	</section>
+
+
+<!------JavaScript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu (){
+    navLinks.style.right = "0";
+}
+    function hideMenu (){
+    navLinks.style.right = "-200px";
+}
+
+</script>
+
+
+	</body>
+	</html>
